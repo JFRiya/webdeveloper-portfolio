@@ -48,9 +48,9 @@ nav a{
     /*Header related style */
     .header{
     background-color: rgba(255, 248, 243, 1);
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat:no-repeat ;
-    background-position: bottom right;
+    background-position: bottom right,left;
     }
 
     .banner{
@@ -160,8 +160,9 @@ color: #757575;
         display: flex;
         gap: 100px;
         background-color:rgba(255, 248, 243, 1);
-        padding: 130px 200px;
+        padding:130px 150px;
         margin-top: 100px;
+        margin-bottom: 100px;
     }
     .footer-column{
         width: 50%;
